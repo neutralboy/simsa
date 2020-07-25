@@ -13,7 +13,7 @@ const MainApp = ({ Component, pageProps }) => {
             <div style={{ marginTop: "4.4rem" }} >
                 <Component {...pageProps} />
             </div>
-            <div style={{ marginTop: "2rem" }}>
+            <div>
                 <Footer />
             </div>
         </>

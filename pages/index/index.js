@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 import styles from './index.module.scss';
 
@@ -31,7 +32,9 @@ const Home = () => {
             <p className={` ${styles["has-text-black-ter"]}`}>
             South Indian Medical Students Association (SIMSA) is a consortium of, by and for medical students of South India.It was founded on 10th June, 2020 when a group of passionate medical students came together, understanding the need for more opportunities and exposure for South Indian medicos. SIMSA is recognized under the government of India and all healthcare students studying in any year of their degree are welcome to come forth and become a part of this organization, and be more.
             </p>
-            <a className={` ${styles.button} ${styles["is-primary"]} ${styles["is-medium"]} ${styles["is-fullwidth"]} `} >Join Us</a>
+            <Link href="/join-us" >
+              <a className={` ${styles.button} ${styles["is-primary"]} ${styles["is-medium"]} ${styles["is-fullwidth"]} `} >Join Us</a>
+            </Link>
           </div>
           <div className={` ${styles.column} ${styles["is-one-third-desktop"]} ${styles["is-full-mobile"]} `}>
             <img alt="together" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_469/v1595692410/simsa/photo-1582213782179-e0d53f98f2ca.png" />
@@ -58,7 +61,9 @@ const Home = () => {
           SIMSA welcomes all students with careers on the road to healthcare to expand their horizons and experience a multitude of opportunities to live their best student life.
           </p>
         </div>
-        <a className={` ${styles.button} ${styles["is-secondary"]} ${styles["is-large"]} `}>Join Us Today</a>
+        <Link href="/join-us" >
+          <a className={` ${styles.button} ${styles["is-secondary"]} ${styles["is-large"]} `}>Join Us Today</a>
+        </Link>
       </div>
     </section>
 
