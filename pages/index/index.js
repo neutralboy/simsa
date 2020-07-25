@@ -13,7 +13,7 @@ const Home = () => {
           <img alt="SIMSA" src="https://res.cloudinary.com/poorna/image/upload/v1591896253/doctor/16.png" />
         </div>
         <div className={` ${styles.column} ${styles["is-half-desktop"]} ${styles["is-full-mobile"]} ${styles["has-text-centered"]} `}>
-          <h1 className={` ${styles['is-size-1']} ${styles['is-family-secondary']} ${styles["has-text-black"]} `}>SIMSA</h1>
+          <h1 className={` ${styles['is-size-1']} ${styles['is-family-secondary']} ${styles["has-text-primary"]}  `}>SIMSA</h1>
           <h3 className={` ${styles["is-size-4"]} `}> South Indian Medical Students Association </h3>
         </div>
       </div>
@@ -60,6 +60,7 @@ const Home = () => {
           <p className={styles["is-size-4"]}>
           SIMSA welcomes all students with careers on the road to healthcare to expand their horizons and experience a multitude of opportunities to live their best student life.
           </p>
+          <h5 className={`${styles["is-size-3"]} ${styles["has-text-light"]} `}>START. BEING. MORE</h5>
         </div>
         <Link href="/join-us" >
           <a className={` ${styles.button} ${styles["is-secondary"]} ${styles["is-large"]} `}>Join Us Today</a>

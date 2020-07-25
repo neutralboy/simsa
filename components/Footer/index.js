@@ -12,8 +12,16 @@ const Footer = () => (
 
             <div className={` ${styles.column} ${styles['is-one-third-desktop']} ${styles['is-full-mobile']} `}>
                 <div>
-                    <p>Our System</p>
-                    <p>Join Us</p>
+                    <Link href="/our-system">
+                        <a>
+                            Our System
+                        </a>
+                    </Link><br />
+                    <Link href="/join-us">
+                        <a>
+                            Join Us
+                        </a>
+                    </Link><br />
                 </div>
             </div>
 
