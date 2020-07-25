@@ -1,0 +1,6 @@
+@import "../../main.scss";
+$navbar-height: 4rem;
+@import "~bulma/sass/components/navbar.sass";
+.navbar-item{
+    text-transform: capitalize;
+}
