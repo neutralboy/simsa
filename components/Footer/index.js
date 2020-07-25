@@ -4,7 +4,7 @@ import styles from './index.module.scss';
 
 const Footer = () => (
     <footer className={` ${styles.footer} ${styles['has-text-centered']}  `}>
-        <div className={`${styles.columns} `}>
+        <div className={`${styles.columns} ${styles["is-vcentered"]} `}>
             <div className={` ${styles.column} ${styles['is-one-third-desktop']} ${styles['is-full-mobile']} `}>
             <h3 className={` ${styles['is-size-4']} ${styles['is-family-secondary']} `}>South Indian Medical Students Association</h3>
             </div>
@@ -41,6 +41,11 @@ const Footer = () => (
                 <Link href="/human-rights-peace">
                     <a>
                         HUMAN RIGHTS & PEACE
+                    </a>
+                </Link><br/>
+                <Link href="/other-councils">
+                    <a>
+                        OTHER COUNCILS
                     </a>
                 </Link>
                 </div>

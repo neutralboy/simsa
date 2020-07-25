@@ -46,7 +46,7 @@ const Home = () => {
           <h2 className={styles["is-size-2"]}>Our Hierarchy</h2>
         </div>
         <div className={styles["has-text-centered"]}>
-          <img src="https://res.cloudinary.com/poorna/image/upload/q_auto:eco/v1595693530/simsa/Screenshot_from_2020-07-25_21-41-02.png" />
+          <img src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_1000/v1595700793/simsa/WhatsApp_Image_2020-07-25_at_23.32.06.jpg" />
         </div>
     </section>
 
