@@ -38,6 +38,7 @@ const JoinUs = () => (
                         <h5>Account Number: 100007773110</h5>
                         <h5>IFSC Code: ESFB0005001</h5>
                         <h5>UPI ID: simsa@axisbank</h5>
+                        <h5>Account Holder Name: SIMSA</h5>
                         <br/>
 
                         <h3>2. Fill the form below with a screenshot of Proof of Payment</h3>
