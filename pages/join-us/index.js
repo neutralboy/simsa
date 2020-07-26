@@ -1,8 +1,9 @@
+import OpenGraph from '../../components/open-graph';
 import styles from './index.module.scss';
 
 const JoinUs = () => (
     <>
-
+    <OpenGraph title="Join us" url="join-us" />
     <section className={styles.section}>
         <div className={styles.container}>
         
@@ -51,8 +52,33 @@ const JoinUs = () => (
                             <a href="https://www.instagram.com/simsa.si/?hl=en">
                                 <span className={` ${styles.icon} ${styles["is-large"]} `}>
                                     <img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/>
+                                    
                                 </span>
-                                <span className={styles["is-size-4"]}>@simsa.si</span>
+                                <span className={styles["is-size-5"]}>@simsa.si</span>
+                            </a>
+                            <br/>
+                            <a href="https://www.facebook.com/southindianmsa.2020/">
+                                <span className={` ${styles.icon} ${styles["is-large"]} `}>
+                                    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
+                                    
+                                </span>
+                                <span className={styles["is-size-5"]}>@southindianmsa.2020</span>
+                            </a>
+                            <br/>
+                            <a href="mailto:vpi@simsa.in">
+                                <span className={` ${styles.icon} ${styles["is-large"]} `}>
+                                    <img src="https://img.icons8.com/fluent/48/000000/gmail.png"/>
+                                    
+                                </span>
+                                <span className={styles["is-size-5"]}>vpi@simsa.in</span>
+                            </a>
+                            <br/>
+                            <a href="https://www.youtube.com/channel/UC8rCki2AHXpvfv6MbPoDSaw?view_as=subscriber">
+                                <span className={` ${styles.icon} ${styles["is-large"]} `}>
+                                    <img src="https://img.icons8.com/color/48/000000/youtube-play.png"/>
+
+                                </span>
+                                <span className={styles["is-size-5"]}>SIMSA</span>
                             </a>
                         </div>
 

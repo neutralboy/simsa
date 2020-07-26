@@ -44,29 +44,39 @@ const Nav = () => {
                             Councils
                         </a>
                         <div className={styles["navbar-dropdown"]}>
-                            <Link href="/sexual-and-reproductive-health">
+                            <Link href="/council/sexual-and-reproductive-health">
                                 <a className={styles["navbar-item"]}>
-                                    SEXUAL & REPRODUCTIVE HEALTH
+                                    Sexual & Reproductive Health
                                 </a>
                             </Link>
-                            <Link href="/medical-education">
+                            <Link href="/council/medical-education">
                                 <a className={styles["navbar-item"]}>
-                                    MEDICAL EDUCATION
+                                    Medical Education
                                 </a>
                             </Link>
-                            <Link href="/public-heath">
+                            <Link href="/council/public-heath">
                                 <a className={styles["navbar-item"]}>
-                                    PUBLIC HEALTH
+                                    Public Health
                                 </a>
                             </Link>
-                            <Link href="/human-rights-peace">
+                            <Link href="/council/human-rights-peace">
                                 <a className={styles["navbar-item"]}>
-                                    HUMAN RIGHTS & PEACE
+                                    Human Rights and Peace
                                 </a>
                             </Link>
-                            <Link href="/other-councils">
+                            <Link href="/council/ethical-and-judicial">
                                 <a className={styles["navbar-item"]}>
-                                    OTHER COUNCILS
+                                    Ethical and Judicial Affairs
+                                </a>
+                            </Link>
+                            <Link href="/council/longrange-planning-development">
+                                <a className={styles["navbar-item"]}>
+                                    Long Range Planning and Development
+                                </a>
+                            </Link>
+                            <Link href="/council/constitution-bylaws-legislation">
+                                <a className={styles["navbar-item"]}>
+                                    Constitution, Bylaws and Legislation
                                 </a>
                             </Link>
                         </div>

@@ -1,7 +1,9 @@
+import OpenGraph from '../../components/open-graph';
 import styles from './index.module.scss';
 
 const OurSystem = ({data = []}) =>  (
     <>
+    <OpenGraph title="Our System" url="our-system" />
         <section className={`${styles.section} ${styles["has-background-primary"]} `}>
             <div className={`${styles.container} `}>
 

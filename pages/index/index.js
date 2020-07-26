@@ -1,10 +1,12 @@
 import Link from 'next/link';
 
+import OpenGraph from '../../components/open-graph';
 import styles from './index.module.scss';
 
 const Home = () => {
   return (
     <>
+    <OpenGraph title="Home" />
     <section className={styles.section}>
       <div className={styles.container}>
 
@@ -13,8 +15,9 @@ const Home = () => {
           <img alt="SIMSA" src="https://res.cloudinary.com/poorna/image/upload/v1591896253/doctor/16.png" />
         </div>
         <div className={` ${styles.column} ${styles["is-half-desktop"]} ${styles["is-full-mobile"]} ${styles["has-text-centered"]} `}>
-          <h1 className={` ${styles['is-size-1']} ${styles['is-family-secondary']} ${styles["has-text-primary"]}  `}>SIMSA</h1>
-          <h3 className={` ${styles["is-size-4"]} `}> South Indian Medical Students Association </h3>
+          <h1 className={` ${styles['is-size-2']} ${styles['is-family-secondary']} ${styles["has-text-primary"]}  `}>South Indian Medical Students Association </h1>
+          <br/>
+          <h3 className={` ${styles["is-size-5"]} `}>Empowering tomorrow's doctors</h3>
         </div>
       </div>
 
