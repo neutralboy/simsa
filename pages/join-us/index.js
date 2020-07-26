@@ -35,7 +35,7 @@ const JoinUs = () => (
                     <div className={styles.content}>
                         <h3> How to join ? </h3>
                         <p>
-                            Here's the form to register. <a>Google Forms</a>
+                            Here's the form to register. <a href="https://docs.google.com/forms/d/e/1FAIpQLScDLp4FB9e_YsC4Lb7lfkllsh2iHEgIrEa8H4--J5iJaDIG6w/viewform" >Google Forms</a>
                         </p>
                     </div>
                 
