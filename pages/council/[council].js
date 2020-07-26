@@ -103,7 +103,7 @@ const switchContent = (name) => {
             return queryBuilder({ 
                 title: "Ethical and Judicial Affairs", 
                 url: name,
-                subtitle: "THEIR VOICES AREN'T ENOUGH, WE NEED YOURS",
+                subtitle: "EVERY INCH OF OURS IS ACCOUNTABLE.",
                 image: "https://res.cloudinary.com/poorna/image/upload/q_auto:eco/v1595688354/Screenshot_from_2020-07-25_20-14-05.png",
                 text: `The Council on Ethical and Judicial Affairs (CEJA) has 2 primary responsibilities. Through its policy development function, it maintains and updates the SIMSA Code of Medical Ethics. In its judicial function, it promotes adherence to the Code’s professional ethical standards. The Council on Ethical and Judicial Affairs (CEJA) ensures high standards of ethical professionalism through its disciplinary function. Under SIMSA's Constitution and Bylaws, CEJA is charged with evaluating the fitness of Probable Members for membership in the SIMSA. CEJA's judicial responsibilities include appellate jurisdiction over member appeals of ethics-related decisions made by Governing body ,specialty Interest groups and Advisory Board.
                 `
@@ -113,7 +113,7 @@ const switchContent = (name) => {
                 return queryBuilder({ 
                     title: "Longrange Planning and Development", 
                     url: name,
-                    subtitle: "THEIR VOICES AREN'T ENOUGH, WE NEED YOURS",
+                    subtitle: "THE FUTURE WE SEE.",
                     image: "https://res.cloudinary.com/poorna/image/upload/q_auto:eco/v1595688354/Screenshot_from_2020-07-25_20-14-05.png",
                     text: `The Council on Long Range Planning and Development (CLRPD) studies and evaluates the long-range objectives and policy development processes in order to make recommendations to the Board of Advisors on the strategic issues related to SIMSA's vision, goals and priorities.
                     The council's 5 main functions are: 
@@ -129,7 +129,7 @@ const switchContent = (name) => {
                     return queryBuilder({ 
                         title: "Constitution, Bylaws and Legislation", 
                         url: name,
-                        subtitle: "THEIR VOICES AREN'T ENOUGH, WE NEED YOURS",
+                        subtitle: "RULES ARE HERE TO FOLLOW.",
                         image: "https://res.cloudinary.com/poorna/image/upload/q_auto:eco/v1595688354/Screenshot_from_2020-07-25_20-14-05.png",
                         text: `The Council on Constitution, Bylaws and Legislation (CCBL) serves as a fact-finding and advisory committee on matters pertaining to SIMSA'S Constitution and Bylaws. The council recommends changes in the constitution and bylaws as directed by the Governing Body and advises the Board of Advisors in reviewing the rules, regulations and procedures of SIMSA sections.
                         The council reviews proposed legislation and recommends appropriate action in accordance with SIMSA policy. It also develops model state legislation, recommends changes in existing SIMSA policy when necessary to accomplish effective legislative goals, and recommends to the Board of Advisors new legislation and legislation to modify existing laws of interest to SIMSA.
