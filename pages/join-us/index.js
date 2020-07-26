@@ -39,8 +39,19 @@ const JoinUs = () => (
                         <h5>IFSC Code: ESFB0005001</h5>
                         <h5>UPI ID: simsa@axisbank</h5>
                         <h5>Account Holder Name: SIMSA</h5>
+                    </div>
                         <br/>
-
+                    <div className={styles.box}>
+                        <div className={styles.content}>
+                            <h3>Membership Fees</h3>
+                            <br/>
+                            <h5>Pre-Med Student: ₹100</h5>
+                            <h5>UG Med Student: ₹200</h5>
+                            <h5>PG Med Student: ₹500</h5>
+                        </div>
+                    </div>
+                        <div className={styles.content}>
+                        <br/>
                         <h3>2. Fill the form below with a screenshot of Proof of Payment</h3>
                         <p>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLScDLp4FB9e_YsC4Lb7lfkllsh2iHEgIrEa8H4--J5iJaDIG6w/viewform" >Google Forms Link</a>
