@@ -33,10 +33,21 @@ const JoinUs = () => (
                     </div>
 <br/>
                     <div className={styles.content}>
-                        <h3> How to join ? </h3>
+                        <h2> How to join ? </h2>
+                        <h3>1. Pay the membership fee in one of the following ways:</h3>
+                        <h5>Account Number: 100007773110</h5>
+                        <h5>IFSC Code: ESFB0005001</h5>
+                        <h5>UPI ID: simsa@axisbank</h5>
+                        <br/>
+
+                        <h3>2. Fill the form below with a screenshot of Proof of Payment</h3>
                         <p>
-                            Here's the form to register. <a href="https://docs.google.com/forms/d/e/1FAIpQLScDLp4FB9e_YsC4Lb7lfkllsh2iHEgIrEa8H4--J5iJaDIG6w/viewform" >Google Forms</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScDLp4FB9e_YsC4Lb7lfkllsh2iHEgIrEa8H4--J5iJaDIG6w/viewform" >Google Forms Link</a>
                         </p>
+                        <br/>
+                        
+                        <h3>3. We'll reach out to you with Membership details over email.</h3>
+
                     </div>
                 
                 </div>
