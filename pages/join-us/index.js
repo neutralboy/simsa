@@ -30,6 +30,13 @@ const JoinUs = () => (
                             <li>Constituent Association members</li>
                         </ul>
                     </div>
+<br/>
+                    <div className={styles.content}>
+                        <h3> How to join ? </h3>
+                        <p>
+                            Here's the form to register. <a>Google Forms</a>
+                        </p>
+                    </div>
                 
                 </div>
                 <div className={` ${styles.column} ${styles["is-half-desktop"]} ${styles["is-full-mobile"]} ${styles["has-text-centered"]} `}>
@@ -38,12 +45,18 @@ const JoinUs = () => (
             </div>
             <br/>
             <div className={styles.content}>
-                <h3> How to join ? </h3>
-                <p>
-                    Here's the form to register. <a>Google Forms</a>
-                </p>
-            </div>
+                <h2>Reach Us.</h2>
 
+                        <div className={styles["is-inline"]}>
+                            <a href="https://www.instagram.com/simsa.si/?hl=en">
+                                <span className={` ${styles.icon} ${styles["is-large"]} `}>
+                                    <img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/>
+                                </span>
+                                <span className={styles["is-size-4"]}>@simsa.si</span>
+                            </a>
+                        </div>
+
+            </div>
         </div>
     </section>
 

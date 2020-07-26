@@ -53,28 +53,13 @@ export async function getStaticProps() {
               {
                 number: 2,
                 heading: "Councils",
-                post: [ "Council Chair", "Vice Chair", "Local Officers" , "12 Members"]
+                post: [ "Council Chair", "Vice Chair", "12 Members", "Local Officers"]
             },
             {
                 number: 3,
                 heading: "Team of Officials",
-                post: [ "State Directors", "Deputy Directors"]
-            },
-            {
-                number: 4,
-                heading: "Public Relations and Communications",
-                post: []
-            },
-            {
-                number: 5,
-                heading: "Logistics",
-                post: []
-            },
-            {
-                number: 6,
-                heading: "Information Technology",
-                post: []
-            },
+                post: [ "State Directors", "Deputy Directors", "Director of Public Relations and Communications", "Information Technology Officer", "Logistics Officer"]
+            }
           ]
       },
     }
