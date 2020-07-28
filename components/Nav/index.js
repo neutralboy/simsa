@@ -18,7 +18,7 @@ const Nav = () => {
                 <Link href="/">
                     <a className={styles["navbar-item"]}>
                         <img className={styles.logo} alt="SIMSA logo" src="https://res.cloudinary.com/poorna/image/upload/c_scale,w_50/v1595707612/simsa/IMG-20200725-WA0017.png" />
-                        <span className={` ${styles['is-size-3']} ${styles['is-family-secondary']} ${styles['has-text-black']} `}>SIMSA.</span>
+                        <span className={` ${styles['is-size-3']} ${styles['is-family-secondary']} ${styles['has-text-black']} `}>SIMSA</span>
                     </a>
                 </Link>
 

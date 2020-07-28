@@ -50,7 +50,7 @@ export async function getStaticProps() {
               {
                   number: 1,
                   heading: "Governing Body",
-                  post: [ "President", "Vice President for Internal Affairs", "Vice President for External Affairs" , "Vice President for Finances", "Vice President for Capacity Building"]
+                  post: [ "President", "Vice President for Internal Matters", "Vice President for External Matters" , "Vice President for Finances", "Vice President for Capacity Building"]
               },
               {
                 number: 2,

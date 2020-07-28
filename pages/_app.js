@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import Router from "next/router";
+import withGA from "next-ga";
+
 
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -20,4 +23,5 @@ const MainApp = ({ Component, pageProps }) => {
         )
 }
 
-export default MainApp;
+// export default MainApp;
+export default withGA("UA-121255747-9", Router)(MainApp);

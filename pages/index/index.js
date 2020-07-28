@@ -33,7 +33,7 @@ const Home = () => {
         <div className={styles.columns}>
           <div className={` ${styles.column} ${styles["is-two-thirds-desktop"]} ${styles["is-full-mobile"]} ${styles.content} `}>
             <p className={` ${styles["has-text-black-ter"]}`}>
-            South Indian Medical Students Association (SIMSA) is a consortium of, by and for medical students of South India.It was founded on 10th June, 2020 when a group of passionate medical students came together, understanding the need for more opportunities and exposure for South Indian medicos. SIMSA is recognized under the government of India and all healthcare students studying in any year of their degree are welcome to come forth and become a part of this organization, and be more.
+            South Indian Medical Students Association (SIMSA) is a consortium of, by and for medical students of South India. It was founded on 10th June, 2020 when a group of passionate medical students came together, understanding the need for more opportunities and exposure for South Indian medicos. SIMSA is recognized under the government of India and all healthcare students studying in any year of their degree are welcome to come forth and become a part of this organization, and be more.
             </p>
             <Link href="/join-us" >
               <a className={` ${styles.button} ${styles["is-primary"]} ${styles["is-medium"]} ${styles["is-fullwidth"]} `} >Join Us</a>
