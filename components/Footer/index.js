@@ -22,6 +22,16 @@ const Footer = () => (
                             Join Us
                         </a>
                     </Link><br />
+                    <Link href="/publications">
+                        <a>
+                            Publications
+                        </a>
+                    </Link><br />
+                    <Link href="/collaborators">
+                        <a>
+                            Collaborators
+                        </a>
+                    </Link><br />
                 </div>
             </div>
 
