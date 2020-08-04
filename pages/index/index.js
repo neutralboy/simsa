@@ -26,6 +26,9 @@ const Home = () => {
 
     <div className={` ${styles.notification} ${styles["is-light"]} ${styles["is-warning"]} ${styles["has-text-centered"]} `}>
       <span className={styles["is-size-4"]}>Application for SIMSA positions are being accepted. <br/></span>
+      <br/>
+      <span className={styles["is-size-4"]}>Know more about the available positions and the requirements. Download the pdf <a href="https://res.cloudinary.com/poorna/image/upload/v1596549309/simsa/docs/SIMSA_Positions_final_1.pdf">here.</a></span><br/>
+      <br/>
       <span className={styles["is-size-4"]}>Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSew8xnV_uI13gNVqJdpEW6kgmjG7pvG4mT5f5wB_7eCUNTKhA/viewform">here</a> to apply<br/></span>
       
     </div>
