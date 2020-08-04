@@ -50,6 +50,11 @@ export async function getStaticProps() {
             title: "Turn On",
             subtitle: "Understanding Porn and Pleasure Workshop",
             doc: "https://res.cloudinary.com/poorna/image/upload/v1596116160/simsa/docs/Turn_on_report.pdf"
+        },
+        {
+            title: "Activity Report",
+            subtitle: " Research Methodology July 2020",
+            doc: "https://res.cloudinary.com/poorna/image/upload/v1596518706/simsa/docs/Copy_of_Copy_of_COVID-19-2.pdf"
         }
     ]
     return {

@@ -24,6 +24,12 @@ const Home = () => {
       </div>
     </section>
 
+    <div className={` ${styles.notification} ${styles["is-light"]} ${styles["is-warning"]} ${styles["has-text-centered"]} `}>
+      <span className={styles["is-size-4"]}>Application for SIMSA positions are being accepted. <br/></span>
+      <span className={styles["is-size-4"]}>Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSew8xnV_uI13gNVqJdpEW6kgmjG7pvG4mT5f5wB_7eCUNTKhA/viewform">here</a> to apply<br/></span>
+      
+    </div>
+
     <section className={` ${styles.section} ${styles["is-secondary"]} `}>
       <div className={styles.container}>
         <div className={styles.header}>
