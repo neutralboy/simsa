@@ -12,7 +12,7 @@ const Home = () => {
 
       <div className={` ${styles.columns} ${styles["is-vcentered"]} `}>
         <div className={` ${styles.column} ${styles["is-half-desktop"]} ${styles["is-full-mobile"]} `}>
-          <img alt="SIMSA" src="https://res.cloudinary.com/poorna/image/upload/v1591896253/doctor/16.png" />
+          <img alt="SIMSA" src="https://res.cloudinary.com/poorna/image/upload/c_scale,h_564/v1591896253/doctor/16.png" />
         </div>
         <div className={` ${styles.column} ${styles["is-half-desktop"]} ${styles["is-full-mobile"]} ${styles["has-text-centered"]} `}>
           <h1 className={` ${styles['is-size-2']} ${styles['is-family-secondary']} ${styles["has-text-primary"]}  `}>South Indian Medical Students Association </h1>
@@ -27,7 +27,7 @@ const Home = () => {
     <div className={` ${styles.notification} ${styles["is-light"]} ${styles["is-warning"]} ${styles["has-text-centered"]} `}>
       <span className={styles["is-size-4"]}>Application for SIMSA positions are being accepted. <br/></span>
       <br/>
-      <span className={styles["is-size-4"]}>Know more about the available positions and the requirements. Download the pdf <a href="https://res.cloudinary.com/poorna/image/upload/v1596549309/simsa/docs/SIMSA_Positions_final_1.pdf">here.</a></span><br/>
+      <span className={styles["is-size-4"]}>Know more about the available positions and the requirements. Download the pdf <a href="https://res.cloudinary.com/poorna/image/upload/v1596783084/simsa/docs/Muted_White_Black_and_Beige_Minimalist_Elegant_New_Hire_Resources_Company_Presentation-4.pdf">here.</a></span><br/>
       <br/>
       <span className={styles["is-size-4"]}>Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSew8xnV_uI13gNVqJdpEW6kgmjG7pvG4mT5f5wB_7eCUNTKhA/viewform">here</a> to apply<br/></span>
       
@@ -49,7 +49,7 @@ const Home = () => {
             </Link>
           </div>
           <div className={` ${styles.column} ${styles["is-one-third-desktop"]} ${styles["is-full-mobile"]} `}>
-            <img alt="together" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_469/v1595692410/simsa/photo-1582213782179-e0d53f98f2ca.png" />
+            <img alt="together" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_250/v1595692410/simsa/photo-1582213782179-e0d53f98f2ca.png" />
           </div>
         </div>
 
