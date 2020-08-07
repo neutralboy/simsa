@@ -32,6 +32,12 @@ const Footer = () => (
                             Collaborators
                         </a>
                     </Link><br />
+                    <Link href="/events">
+                        <a>
+                            <span >Events</span>
+                        </a>
+                    </Link><br/>
+                    <a href="https://github.com/neutralboy/simsa">Github</a>
                 </div>
             </div>
 

@@ -108,6 +108,14 @@ const Nav = () => {
                     </div>
 
                     <div className={styles['navbar-item']}>
+                        <Link href="/events">
+                            <a className={`${styles["is-family-secondary"]} ${styles['has-text-dark']} `}>
+                                <span >Events</span>
+                            </a>
+                        </Link>
+                    </div>
+
+                    <div className={styles['navbar-item']}>
                         <Link href="/join-us">
                             <a className={` ${styles.button} ${styles['has-background-primary']} ${styles["is-secondary"]} ${styles["has-text-white"]}  `}>Join us</a>
                         </Link>
