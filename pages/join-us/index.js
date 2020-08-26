@@ -131,7 +131,7 @@ const JoinUs = () => {
                         <br/>
 
                         <div className={styles.content}>
-                            <p>The Membership ID will be sent to you 48hrs after completing the process of registration.</p>
+                            <p>The Membership ID will be sent to you within 1 week after completing the process of registration.</p>
                         </div>
                 
                 </div>
