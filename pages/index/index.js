@@ -24,6 +24,11 @@ const Home = () => {
       </div>
     </section>
 
+    <div className={` ${styles.notification} ${styles["is-light"]} ${styles["is-warning"]} ${styles["has-text-centered"]} `}>
+      <span className={styles["is-size-4"]}>Application for SIMSA positions are being accepted. <br/></span>
+      <p><a href="https://res.cloudinary.com/poorna/image/upload/v1598969454/simsa/docs/2nd_call-3-2.pdf">Here's</a> how to go about it. </p>
+    </div>
+
     <section className={` ${styles.section} ${styles["is-secondary"]} `}>
       <div className={styles.container}>
         <div className={styles.header}>
