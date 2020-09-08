@@ -10,6 +10,7 @@ const MainApp = ({ Component, pageProps }) => {
     return (
         <>
             <Head>
+                <meta name="google-site-verification" content="vJdkICQH8ENaXeXapqr44VC797yb2s1Ip84ZdIS3oUg" />
                 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@500&display=swap" rel="stylesheet"/> 
             </Head>
             <Nav />
