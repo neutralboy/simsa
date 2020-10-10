@@ -112,7 +112,7 @@ const JoinUs = () => {
                         </div>
                     </div>
 <br/>
-                <h3 className={styles["is-size-4"]}><b>How to join us?</b></h3><br/>
+            {/* <h3 className={styles["is-size-4"]}><b>How to join us?</b></h3><br/>
                     <div className={` ${styles.control} ${styles["is-expanded"]} `}>
                         <div className={`${styles.select} ${styles["is-medium"]} ${styles["is-fullwidth"]} `}>
                             <select onChange={selectCourse} >
@@ -122,19 +122,19 @@ const JoinUs = () => {
                                 <option value="PM">Pre Medical</option>
                             </select>
                         </div>
-                    </div>
+                    </div> */}
 <br/>
 
-                    <PaymentButton course={course} />
+{/* <PaymentButton course={course} /> */}
 
                     
                         <br/>
 
                         <div className={styles.content}>
-                            <p>The Membership ID will be sent to you within 1 week after completing the process of registration.</p>
+                            <p>The Membership process has been temporarily stopped. Check back again later.</p>
                         </div>
                 
-                </div>
+                </div>c
                 <div className={` ${styles.column} ${styles["is-half-desktop"]} ${styles["is-full-mobile"]} ${styles["has-text-centered"]} `}>
                     <img alt="Join us at SIMSA" src="https://res.cloudinary.com/poorna/image/upload/v1595706915/simsa/undraw_medicine_b1ol.svg" />
                 </div>
