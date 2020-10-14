@@ -3,68 +3,6 @@ import {useState} from 'react';
 import OpenGraph from '../../components/open-graph';
 import styles from './index.module.scss';
 
-const PaymentButton = ({ course }) => {
-    
-    
-    if(course == "UG") {
-        return (<div>
-            <div className={`${styles.field} ${styles["has-addons"]} `}>
-                <p className={styles.control}>
-                    <a href="https://rzp.io/l/simsa-ug-membership" className={` ${styles.button} ${styles["is-medium"]} `}>
-                        <span className={` ${styles.icon} ${styles["is-large"]} `}>
-                            <img alt="razorpay" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_100/v1595928358/Razorpay-the-new-epayment-that-will-break-everything-in-2019.png"/>
-                        </span>
-                        <span className={styles["is-family-secondary"]}>
-                            Become a member today
-                        </span>
-                    </a>
-                </p>
-            </div>
-            <p>Click on the button above and complete the membership registration process.</p>
-        </div>)
-    }
-
-    if(course == "PG") {
-        return (<div>
-            <div className={`${styles.field} ${styles["has-addons"]} `}>
-                <p className={styles.control}>
-                    <a href="https://rzp.io/l/pg-membership" className={` ${styles.button} ${styles["is-medium"]} `}>
-                        <span className={` ${styles.icon} ${styles["is-large"]} `}>
-                            <img alt="razorpay" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_100/v1595928358/Razorpay-the-new-epayment-that-will-break-everything-in-2019.png"/>
-                        </span>
-                        <span className={styles["is-family-secondary"]}>
-                            Become a member today
-                        </span>
-                    </a>
-                </p>
-            </div>
-            <p>Click on the button above and complete the membership registration process.</p>
-        </div>)
-    }
-
-    if(course == "PM") {
-        return (<div>
-            <div className={`${styles.field} ${styles["has-addons"]} `}>
-                <p className={styles.control}>
-                    <a href="https://rzp.io/l/premed-membership" className={` ${styles.button} ${styles["is-medium"]} `}>
-                        <span className={` ${styles.icon} ${styles["is-large"]} `}>
-                            <img alt="razorpay" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_100/v1595928358/Razorpay-the-new-epayment-that-will-break-everything-in-2019.png"/>
-                        </span>
-                        <span className={styles["is-family-secondary"]}>
-                            Become a member today
-                        </span>
-                    </a>
-                </p>
-            </div>
-            <p>Click on the button above and complete the membership registration process.</p>
-        </div>)
-    }
-
-    else{
-        return <div />
-    }
-
-}
 
 const JoinUs = () => {
     const [course, setCourse] = useState("");
@@ -112,29 +50,13 @@ const JoinUs = () => {
                         </div>
                     </div>
 <br/>
-            {/* <h3 className={styles["is-size-4"]}><b>How to join us?</b></h3><br/>
-                    <div className={` ${styles.control} ${styles["is-expanded"]} `}>
-                        <div className={`${styles.select} ${styles["is-medium"]} ${styles["is-fullwidth"]} `}>
-                            <select onChange={selectCourse} >
-                                <option value="" >Select your course of study</option>
-                                <option value="UG">Under Graduate</option>
-                                <option value="PG">Post Graduate</option>
-                                <option value="PM">Pre Medical</option>
-                            </select>
-                        </div>
-                    </div> */}
-<br/>
 
-{/* <PaymentButton course={course} /> */}
+                        <a href="https://register.simsa.in" className={` ${styles.button} ${styles["is-large"]} ${styles["is-fullwidth"]} ${styles["is-primary"]} `}>Become a Member</a>
 
                     
                         <br/>
-
-                        <div className={styles.content}>
-                            <p>The Membership process has been temporarily stopped. Check back again later.</p>
-                        </div>
                 
-                </div>c
+                </div>
                 <div className={` ${styles.column} ${styles["is-half-desktop"]} ${styles["is-full-mobile"]} ${styles["has-text-centered"]} `}>
                     <img alt="Join us at SIMSA" src="https://res.cloudinary.com/poorna/image/upload/v1595706915/simsa/undraw_medicine_b1ol.svg" />
                 </div>
