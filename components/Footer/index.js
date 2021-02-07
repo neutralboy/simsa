@@ -38,6 +38,11 @@ const Footer = () => (
                         </a>
                     </Link><br/>
                     <a href="https://github.com/neutralboy/simsa">Github</a>
+                    <div>
+                        <a href="https://forms.gle/sbJa6161WYJAxJUA8">
+                        <a className={` ${styles.button} ${styles['is-danger']} `}>Complaint Forum</a>
+                        </a>
+                    </div>
                 </div>
             </div>
 

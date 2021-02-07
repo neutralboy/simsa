@@ -121,6 +121,12 @@ const Nav = () => {
                         </Link>
                     </div>
 
+                    <div className={styles['navbar-item']}>
+                        <a href="https://forms.gle/sbJa6161WYJAxJUA8">
+                        <a className={` ${styles.button} ${styles['is-danger']} `}>Complaint Forum</a>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </nav>
