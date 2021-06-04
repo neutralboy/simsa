@@ -55,6 +55,11 @@ export async function getStaticProps() {
             title: "Activity Report",
             subtitle: " Research Methodology July 2020",
             doc: "https://res.cloudinary.com/poorna/image/upload/v1596518706/simsa/docs/Copy_of_Copy_of_COVID-19-2.pdf"
+        },
+        {
+            title: "COVID-19 Rural toolkit",
+            subtitle: " ",
+            doc: "https://drive.google.com/folderview?id=1om9AM8OfSBKOWFdWd5oivBAfDsJxqRcR"
         }
     ]
     return {
