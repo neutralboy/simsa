@@ -24,30 +24,6 @@ const Home = () => {
       </div>
     </section>
 
-    <section className={` ${styles.section} ${styles["has-bg-hideout"]} `}>
-      <div className={styles.container}>
-        <h2 className={` ${styles["is-size-3"]} ${styles["is-family-secondary"]} `}>
-          Registration for ECG workshop 
-        </h2>
-        <h3 className={` ${styles["is-size-5"]} ${styles["subtitle"]} `}>
-          by SaferCare
-        </h3>
-        <br/>
-          <div className={styles.content}>
-            <p><b>Date of Event:</b> 31st January 2021</p>
-            <p><b>Duration:</b>3 hours</p>
-            <p><b>Mode:</b> Zoom</p>
-            <p><b>Registration starts:</b> 6th January 2021 </p>
-            <p><b>Registration ends: 29th January 2021</b></p>
-            <p>Download the event brochure <a href="https://res.cloudinary.com/poorna/image/upload/v1609942943/simsa/0-15221487502_20210106_194757_0000.pdf" >here</a></p>
-          </div>
-        <br/>
-        <a href="https://rzp.io/l/ecg-workshop-member" className={` ${styles.button} ${styles["is-fullwidth"]} ${styles["is-medium"]} `}>SIMSA Members Register here.</a>
-        <br/>
-        <a href="https://rzp.io/l/ecg-workshop-non-members" className={` ${styles.button} ${styles["is-fullwidth"]} ${styles["is-medium"]} `}>Non-Members Register here.</a>
-
-      </div>
-    </section>
 
     <section className={` ${styles.section} ${styles["is-secondary"]} `}>
       <div className={styles.container}>
