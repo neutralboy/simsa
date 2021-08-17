@@ -51,8 +51,8 @@ const JoinUs = () => {
                     </div>
 <br/>
 
-<a href="https://register.simsa.in" className={` ${styles.button} ${styles["is-large"]} ${styles["is-fullwidth"]} ${styles["is-primary"]} `}>Become a Member</a>
-{/* <p>The site for registration is currently down for maintenence. Thank you for your co-operation.</p> */}
+{/* <a href="https://register.simsa.in" className={` ${styles.button} ${styles["is-large"]} ${styles["is-fullwidth"]} ${styles["is-primary"]} `}>Become a Member</a> */}
+ <p>The site for registration is currently down for maintenence. Thank you for your co-operation.</p>
 
                     
                         <br/>
