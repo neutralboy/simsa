@@ -50,43 +50,27 @@ const Footer = () => (
 
             
             <div className={` ${styles.column} ${styles['is-one-third-desktop']} ${styles['is-full-mobile']} `}>
-                <h4 className={` ${styles['is-size-5']} ${styles['is-family-secondary']} `}>Councils</h4><br />
                 <div>
-                    <Link href="/council/sexual-and-reproductive-health">
+                    <Link href="/privacy_policy">
                         <a>
-                            Sexual & Reproductive Health
+                            Privacy Policy
                         </a>
                     </Link><br/>
-                    <Link href="/council/medical-education">
+                    <Link href="/terms">
                         <a>
-                            Medical Education
+                            Terms
                         </a>
                     </Link><br/>
-                    <Link href="/council/public-heath">
+                    <Link href="/refund.html">
                         <a>
-                            Public Health
+                            Refund Policy
                         </a>
                     </Link><br/>
-                    <Link href="/council/human-rights-peace">
+                    <Link href="/DPP.html">
                         <a>
-                            Human Rights and Peace
+                            Data Protection
                         </a>
                     </Link><br/>
-                    <Link href="/council/ethical-and-judicial">
-                        <a>
-                            Ethical and Judicial Affairs
-                        </a>
-                    </Link><br/>
-                    <Link href="/council/longrange-planning-development">
-                        <a>
-                            Long Range Planning and Development
-                        </a>
-                    </Link><br/>
-                    <Link href="/council/constitution-bylaws-legislation">
-                        <a>
-                            Constitution, Bylaws and Legislation
-                        </a>
-                    </Link>
                 </div>
             </div>
 
