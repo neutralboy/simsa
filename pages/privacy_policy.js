@@ -1,7 +1,11 @@
 import React from "react";
+import Head from "next/head";
 
 const PrivacyPolicy = () => (
 <div class="c3">
+        <Head>
+               <link rel="stylesheet" href="/privacy.css" />
+        </Head>
         <p class="c0"><span class="c1">Privacy policy </span></p>
         <p class="c0 c2"><span class="c1"></span></p>
         <p class="c0"><span class="c1">Data Protection Notice</span></p>
