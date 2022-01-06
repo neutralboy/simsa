@@ -1,0 +1,107 @@
+    @page {  }
+    table { border-collapse:collapse; border-spacing:0; empty-cells:show }
+    td, th { vertical-align:top; font-size:12pt;}
+    h1, h2, h3, h4, h5, h6 { clear:both;}
+    ol, ul { margin:0; padding:0;}
+    li { list-style: none; margin:0; padding:0;}
+    /* "li span.odfLiEnd" - IE 7 issue*/
+    li span. { clear: both; line-height:0; width:0; height:0; margin:0; padding:0; }
+    span.footnodeNumber { padding-right:1em; }
+    span.annotation_style_by_filter { font-size:95%; font-family:Arial; background-color:#fff000;  margin:0; border:0; padding:0;  }
+    span.heading_numbering { margin-right: 0.8rem; }* { margin:0;}
+    .Heading_20_2 { font-size:20pt; margin-bottom:0in; margin-top:0.278in; text-align:left ! important; font-family:Raleway; writing-mode:horizontal-tb; direction:ltr; margin-left:0in; margin-right:0in; line-height:100%; text-indent:0in; background-color:transparent; padding:0in; border-style:none; color:#434343; font-style:normal; text-decoration:none ! important; font-weight:normal; }
+    .Heading_20_3 { font-size:12pt; margin-bottom:0in; margin-top:0.278in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0in; margin-right:0in; line-height:100%; text-indent:0in; background-color:transparent; padding:0in; border-style:none; color:#434343; font-style:normal; text-decoration:none ! important; font-weight:bold; }
+    .P1 { font-size:12pt; margin-bottom:0in; margin-top:0in; text-align:left ! important; font-family:Helvetica Neue; writing-mode:horizontal-tb; direction:ltr; margin-left:0in; margin-right:0in; line-height:100%; text-indent:0in; background-color:transparent; padding:0in; border-style:none; color:#000000; font-style:normal; text-decoration:none ! important; font-weight:normal; }
+    .P10 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .P11 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .P12 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .P13 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .P14 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .P2 { background-color:transparent; border-style:none; color:#43475b; font-size:30pt; font-style:normal; font-weight:normal; line-height:100%; margin-bottom:0.0835in; margin-left:0in; margin-right:0in; margin-top:0.3335in; padding:0in; text-align:left ! important; text-indent:0in; font-family:Raleway; text-decoration:none ! important; writing-mode:horizontal-tb; direction:ltr; }
+    .P4 { font-size:11pt; margin-bottom:0in; margin-top:0in; text-align:left ! important; font-family:Open Sans; writing-mode:horizontal-tb; direction:ltr; margin-left:0in; margin-right:0in; line-height:100%; text-indent:0in; background-color:transparent; padding:0in; border-style:none; color:#43475b; font-style:normal; text-decoration:none ! important; font-weight:bold; }
+    .P5 { font-size:11pt; margin-bottom:0in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0in; margin-right:0in; line-height:100%; text-indent:0in; background-color:transparent; padding:0in; border-style:none; color:#43475b; font-style:normal; text-decoration:none ! important; font-weight:normal; }
+    .P6 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0in; margin-right:0in; line-height:100%; text-indent:0in; background-color:transparent; padding:0in; border-style:none; }
+    .P7 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .P8 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .P9 { font-size:12pt; margin-bottom:0.139in; margin-top:0in; text-align:left ! important; font-family:Times New Roman; writing-mode:horizontal-tb; direction:ltr; margin-left:0.5in; margin-right:0in; line-height:100%; text-indent:-0.25in; background-color:transparent; padding:0in; border-style:none; }
+    .Subtitle { font-size:18pt; margin-bottom:0.0555in; margin-top:0in; text-align:left ! important; font-family:Raleway; writing-mode:horizontal-tb; direction:ltr; margin-left:0in; margin-right:0in; line-height:100%; text-indent:0in; background-color:transparent; padding:0in; border-style:none; color:#999999; font-style:normal; text-decoration:none ! important; font-weight:normal; }
+    .Table1 { width:6.5208in; margin-left:0.0819in; margin-top:0in; margin-bottom:0in; margin-right:auto;writing-mode:horizontal-tb; direction:ltr; }
+    .Table1_A1 { vertical-align:top; background-color:transparent; padding:0.0556in; border-width:0.0353cm; border-style:solid; border-color:#000000; }
+    .Table1_A { width:1.2396in; }
+    .Table1_B { width:5.2806in; }
+    .ListLabel_20_1 { background-color:transparent; }
+    .ListLabel_20_10 { background-color:transparent; }
+    .ListLabel_20_11 { background-color:transparent; }
+    .ListLabel_20_12 { background-color:transparent; }
+    .ListLabel_20_13 { background-color:transparent; }
+    .ListLabel_20_14 { background-color:transparent; }
+    .ListLabel_20_15 { background-color:transparent; }
+    .ListLabel_20_16 { background-color:transparent; }
+    .ListLabel_20_17 { background-color:transparent; }
+    .ListLabel_20_18 { background-color:transparent; }
+    .ListLabel_20_19 { background-color:transparent; }
+    .ListLabel_20_2 { background-color:transparent; }
+    .ListLabel_20_20 { background-color:transparent; }
+    .ListLabel_20_21 { background-color:transparent; }
+    .ListLabel_20_22 { background-color:transparent; }
+    .ListLabel_20_23 { background-color:transparent; }
+    .ListLabel_20_24 { background-color:transparent; }
+    .ListLabel_20_25 { background-color:transparent; }
+    .ListLabel_20_26 { background-color:transparent; }
+    .ListLabel_20_27 { background-color:transparent; }
+    .ListLabel_20_28 { background-color:transparent; }
+    .ListLabel_20_29 { background-color:transparent; }
+    .ListLabel_20_3 { background-color:transparent; }
+    .ListLabel_20_30 { background-color:transparent; }
+    .ListLabel_20_31 { background-color:transparent; }
+    .ListLabel_20_32 { background-color:transparent; }
+    .ListLabel_20_33 { background-color:transparent; }
+    .ListLabel_20_34 { background-color:transparent; }
+    .ListLabel_20_35 { background-color:transparent; }
+    .ListLabel_20_36 { background-color:transparent; }
+    .ListLabel_20_37 { background-color:transparent; }
+    .ListLabel_20_38 { background-color:transparent; }
+    .ListLabel_20_39 { background-color:transparent; }
+    .ListLabel_20_4 { background-color:transparent; }
+    .ListLabel_20_40 { background-color:transparent; }
+    .ListLabel_20_41 { background-color:transparent; }
+    .ListLabel_20_42 { background-color:transparent; }
+    .ListLabel_20_43 { background-color:transparent; }
+    .ListLabel_20_44 { background-color:transparent; }
+    .ListLabel_20_45 { background-color:transparent; }
+    .ListLabel_20_46 { background-color:transparent; }
+    .ListLabel_20_47 { background-color:transparent; }
+    .ListLabel_20_48 { background-color:transparent; }
+    .ListLabel_20_49 { background-color:transparent; }
+    .ListLabel_20_5 { background-color:transparent; }
+    .ListLabel_20_50 { background-color:transparent; }
+    .ListLabel_20_51 { background-color:transparent; }
+    .ListLabel_20_52 { background-color:transparent; }
+    .ListLabel_20_53 { background-color:transparent; }
+    .ListLabel_20_54 { background-color:transparent; }
+    .ListLabel_20_55 { background-color:transparent; }
+    .ListLabel_20_56 { background-color:transparent; }
+    .ListLabel_20_57 { background-color:transparent; }
+    .ListLabel_20_58 { background-color:transparent; }
+    .ListLabel_20_59 { background-color:transparent; }
+    .ListLabel_20_6 { background-color:transparent; }
+    .ListLabel_20_60 { background-color:transparent; }
+    .ListLabel_20_61 { background-color:transparent; }
+    .ListLabel_20_62 { background-color:transparent; }
+    .ListLabel_20_63 { background-color:transparent; }
+    .ListLabel_20_64 { background-color:transparent; }
+    .ListLabel_20_65 { background-color:transparent; }
+    .ListLabel_20_66 { background-color:transparent; }
+    .ListLabel_20_67 { background-color:transparent; }
+    .ListLabel_20_68 { background-color:transparent; }
+    .ListLabel_20_69 { background-color:transparent; }
+    .ListLabel_20_7 { background-color:transparent; }
+    .ListLabel_20_70 { background-color:transparent; }
+    .ListLabel_20_71 { background-color:transparent; }
+    .ListLabel_20_72 { background-color:transparent; }
+    .ListLabel_20_8 { background-color:transparent; }
+    .ListLabel_20_9 { background-color:transparent; }
+    .T1 { color:#000000; }
+    .T2 { color:#43475b; font-family:Times New Roman; font-size:11pt; font-style:normal; text-decoration:none ! important; font-weight:normal; background-color:transparent; }
+    /* ODF styles with no properties representable as CSS */
+    .Table1.1 .Table1.3  { }
